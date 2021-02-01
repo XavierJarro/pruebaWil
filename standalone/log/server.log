@@ -1,0 +1,1450 @@
+2021-01-29 07:18:50,217 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.1.Final
+2021-01-29 07:18:50,667 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2021-01-29 07:18:50,680 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2021-01-29 07:18:50,820 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 20.0.0.Final (WildFly Core 12.0.1.Final) starting
+2021-01-29 07:18:50,821 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-1IT8M2P
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_271\jre
+	java.io.tmpdir = C:\Users\xa_cx\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_271\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\src\flutter\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\nodejs\;C:\maven\apache-maven-3.6.3\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\xa_cx\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\xa_cx\AppData\Local\Programs\Python\Python38;C:\Users\xa_cx\Downloads\opencv\build\x64\vc15\bin;C:\Users\xa_cx\Anaconda3\condabin;C:\Program Files\PuTTY\;C:\Users\xa_cx\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\xa_cx\AppData\Local\Programs\Python\Python38;C:\Users\xa_cx\AppData\Local\Microsoft\WindowsApps;C:\Users\xa_cx\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\xa_cx\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;C:\Users\xa_cx\AppData\Local\Microsoft\WindowsApps;C:\src\flutter\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\xa_cx\Downloads\opencv\build\x64\vc15\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_271-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_271
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.271-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final
+	jboss.host.name = desktop-1it8m2p
+	jboss.http.port = 8083
+	jboss.management.http.port = 9993
+	jboss.modules.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-1it8m2p
+	jboss.qualified.host.name = desktop-1it8m2p
+	jboss.server.base.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\log
+	jboss.server.name = desktop-1it8m2p
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_271\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\jboss-modules.jar -mp C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = ES
+	user.dir = C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\bin
+	user.home = C:\Users\xa_cx
+	user.language = es
+	user.name = Starman
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2021-01-29 07:18:50,822 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-1IT8M2P -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9993 -Djboss.http.port=8083 -Dorg.jboss.boot.log.file=C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\configuration/logging.properties 
+2021-01-29 07:18:51,736 INFO  [org.wildfly.security] (ServerService Thread Pool -- 29) ELY00001: WildFly Elytron version 1.12.1.Final
+2021-01-29 07:18:52,295 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-01-29 07:18:52,322 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 34) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-01-29 07:18:52,648 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EvaluacionWSJarro.war in deployment directory. To trigger deployment create a file called EvaluacionWSJarro.war.dodeploy
+2021-01-29 07:18:52,648 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SitemasTransaccional2.war in deployment directory. To trigger deployment create a file called SitemasTransaccional2.war.dodeploy
+2021-01-29 07:18:52,648 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found parqueadero.war in deployment directory. To trigger deployment create a file called parqueadero.war.dodeploy
+2021-01-29 07:18:52,649 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ExamenJarroXavierServidor.war in deployment directory. To trigger deployment create a file called ExamenJarroXavierServidor.war.dodeploy
+2021-01-29 07:18:52,649 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SitemasTransaccionalDeberSOAP.war in deployment directory. To trigger deployment create a file called SitemasTransaccionalDeberSOAP.war.dodeploy
+2021-01-29 07:18:52,693 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-01-29 07:18:52,715 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.1.Final
+2021-01-29 07:18:52,724 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.1.Final
+2021-01-29 07:18:52,766 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-01-29 07:18:52,772 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 80) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-01-29 07:18:52,777 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 67) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-01-29 07:18:52,779 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 72) WFLYNAM0001: Activating Naming Subsystem
+2021-01-29 07:18:52,786 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 82) WFLYWS0002: Activating WebServices Extension
+2021-01-29 07:18:52,786 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 70) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-01-29 07:18:52,789 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 69) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2021-01-29 07:18:52,799 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 71) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2021-01-29 07:18:52,802 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 3.12.1.Final
+2021-01-29 07:18:52,807 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 68) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-01-29 07:18:52,808 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-01-29 07:18:52,818 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 78) WFLYSEC0002: Activating Security Subsystem
+2021-01-29 07:18:52,831 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.22.Final)
+2021-01-29 07:18:52,832 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 55) WFLYIIOP0001: Activating IIOP Subsystem
+2021-01-29 07:18:52,835 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.1.3.Final starting
+2021-01-29 07:18:52,837 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00005
+2021-01-29 07:18:52,892 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-01-29 07:18:52,920 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-01-29 07:18:52,921 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2021-01-29 07:18:52,942 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-01-29 07:18:53,033 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.1)
+2021-01-29 07:18:53,062 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = oracle-driver
+2021-01-29 07:18:53,076 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2021-01-29 07:18:53,077 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0014: Creating file handler for path 'C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-01-29 07:18:53,105 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2021-01-29 07:18:53,650 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2021-01-29 07:18:53,654 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-01-29 07:18:53,654 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-01-29 07:18:53,699 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2021-01-29 07:18:53,700 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2021-01-29 07:18:53,702 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2021-01-29 07:18:53,702 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.18.Final
+2021-01-29 07:18:53,749 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-01-29 07:18:53,756 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\deployments
+2021-01-29 07:18:53,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ExamenJarroXavierServidor.war" (runtime-name: "ExamenJarroXavierServidor.war")
+2021-01-29 07:18:53,765 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "EvaluacionWSJarro.war" (runtime-name: "EvaluacionWSJarro.war")
+2021-01-29 07:18:53,765 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "parqueadero.war" (runtime-name: "parqueadero.war")
+2021-01-29 07:18:53,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "SitemasTransaccional2.war" (runtime-name: "SitemasTransaccional2.war")
+2021-01-29 07:18:53,765 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "SitemasTransaccionalDeberSOAP.war" (runtime-name: "SitemasTransaccionalDeberSOAP.war")
+2021-01-29 07:18:53,779 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8083
+2021-01-29 07:18:53,962 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2021-01-29 07:18:53,964 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2021-01-29 07:18:54,071 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-01-29 07:18:54,072 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/pruebaDS]
+2021-01-29 07:18:54,072 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/sistemaTranDS]
+2021-01-29 07:18:54,073 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExamenDS]
+2021-01-29 07:18:54,073 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/parqueaderoDS]
+2021-01-29 07:18:54,133 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\xa_cx\Downloads\APP DISTRIBUIDAS\jee\wildfly-20.0.0.Final\wildfly-20.0.0.Final\standalone\data\activemq\paging)
+2021-01-29 07:18:54,180 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+2021-01-29 07:18:54,227 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221013: Using NIO Journal
+2021-01-29 07:18:54,380 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-01-29 07:18:54,380 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-01-29 07:18:54,381 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-01-29 07:18:54,381 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-01-29 07:18:54,468 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221034: Waiting indefinitely to obtain live lock
+2021-01-29 07:18:54,469 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221035: Live Server Obtained live lock
+2021-01-29 07:18:54,797 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-01-29 07:18:55,000 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 5.4.1.Final (Apache CXF 3.3.6) 
+2021-01-29 07:18:55,712 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for ExamenJarroXavierServidorPersistenceUnit
+2021-01-29 07:18:55,713 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for EvaluacionWSJarroPersistenceUnit
+2021-01-29 07:18:55,731 WARN  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-01-29 07:18:55,731 WARN  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-01-29 07:18:56,340 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-javaee-webappDSprueba]
+2021-01-29 07:18:56,340 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-javaee-webappDS3]
+2021-01-29 07:18:56,518 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment EvaluacionWSJarro.war
+2021-01-29 07:18:56,521 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ExamenJarroXavierServidor.war
+2021-01-29 07:18:57,267 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 6.0.20.Final
+2021-01-29 07:18:57,650 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2021-01-29 07:18:57,651 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2021-01-29 07:18:57,658 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-01-29 07:18:57,658 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2021-01-29 07:18:57,662 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-01-29 07:18:57,662 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2021-01-29 07:18:57,760 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'FacCabeceraDao' in deployment unit 'deployment "EvaluacionWSJarro.war"' are as follows:
+
+	java:global/EvaluacionWSJarro/FacCabeceraDao!ec.edu.ups.dao.FacCabeceraDao
+	java:app/EvaluacionWSJarro/FacCabeceraDao!ec.edu.ups.dao.FacCabeceraDao
+	java:module/FacCabeceraDao!ec.edu.ups.dao.FacCabeceraDao
+	java:global/EvaluacionWSJarro/FacCabeceraDao
+	java:app/EvaluacionWSJarro/FacCabeceraDao
+	java:module/FacCabeceraDao
+
+2021-01-29 07:18:57,761 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'FacDetalleDao' in deployment unit 'deployment "EvaluacionWSJarro.war"' are as follows:
+
+	java:global/EvaluacionWSJarro/FacDetalleDao!ec.edu.ups.dao.FacDetalleDao
+	java:app/EvaluacionWSJarro/FacDetalleDao!ec.edu.ups.dao.FacDetalleDao
+	java:module/FacDetalleDao!ec.edu.ups.dao.FacDetalleDao
+	java:global/EvaluacionWSJarro/FacDetalleDao
+	java:app/EvaluacionWSJarro/FacDetalleDao
+	java:module/FacDetalleDao
+
+2021-01-29 07:18:57,761 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ProductoDao' in deployment unit 'deployment "ExamenJarroXavierServidor.war"' are as follows:
+
+	java:global/ExamenJarroXavierServidor/ProductoDao!ec.edu.ups.dao.ProductoDao
+	java:app/ExamenJarroXavierServidor/ProductoDao!ec.edu.ups.dao.ProductoDao
+	java:module/ProductoDao!ec.edu.ups.dao.ProductoDao
+	java:global/ExamenJarroXavierServidor/ProductoDao
+	java:app/ExamenJarroXavierServidor/ProductoDao
+	java:module/ProductoDao
+
+2021-01-29 07:18:57,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GestionFacturasON' in deployment unit 'deployment "EvaluacionWSJarro.war"' are as follows:
+
+	java:global/EvaluacionWSJarro/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONLocal
+	java:app/EvaluacionWSJarro/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONLocal
+	java:module/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONLocal
+	java:global/EvaluacionWSJarro/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONRemoto
+	java:app/EvaluacionWSJarro/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONRemoto
+	java:module/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONRemoto
+	java:jboss/exported/EvaluacionWSJarro/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONRemoto
+	ejb:/EvaluacionWSJarro/GestionFacturasON!ec.edu.ups.negocio.GestionFacturasONRemoto
+
+2021-01-29 07:18:57,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDao' in deployment unit 'deployment "EvaluacionWSJarro.war"' are as follows:
+
+	java:global/EvaluacionWSJarro/ClienteDao!ec.edu.ups.dao.ClienteDao
+	java:app/EvaluacionWSJarro/ClienteDao!ec.edu.ups.dao.ClienteDao
+	java:module/ClienteDao!ec.edu.ups.dao.ClienteDao
+	java:global/EvaluacionWSJarro/ClienteDao
+	java:app/EvaluacionWSJarro/ClienteDao
+	java:module/ClienteDao
+
+2021-01-29 07:18:57,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GestionProductosON' in deployment unit 'deployment "ExamenJarroXavierServidor.war"' are as follows:
+
+	java:global/ExamenJarroXavierServidor/GestionProductosON!ec.edu.ups.negocio.GestionProductosONRemoto
+	java:app/ExamenJarroXavierServidor/GestionProductosON!ec.edu.ups.negocio.GestionProductosONRemoto
+	java:module/GestionProductosON!ec.edu.ups.negocio.GestionProductosONRemoto
+	java:jboss/exported/ExamenJarroXavierServidor/GestionProductosON!ec.edu.ups.negocio.GestionProductosONRemoto
+	ejb:/ExamenJarroXavierServidor/GestionProductosON!ec.edu.ups.negocio.GestionProductosONRemoto
+	java:global/ExamenJarroXavierServidor/GestionProductosON
+	java:app/ExamenJarroXavierServidor/GestionProductosON
+	java:module/GestionProductosON
+
+2021-01-29 07:18:57,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ProductoDao' in deployment unit 'deployment "EvaluacionWSJarro.war"' are as follows:
+
+	java:global/EvaluacionWSJarro/ProductoDao!ec.edu.ups.dao.ProductoDao
+	java:app/EvaluacionWSJarro/ProductoDao!ec.edu.ups.dao.ProductoDao
+	java:module/ProductoDao!ec.edu.ups.dao.ProductoDao
+	java:global/EvaluacionWSJarro/ProductoDao
+	java:app/EvaluacionWSJarro/ProductoDao
+	java:module/ProductoDao
+
+2021-01-29 07:18:58,002 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221007: Server is now live
+2021-01-29 07:18:58,003 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 84) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.10.1 [default, nodeID=eecb59a6-28f3-11eb-86e2-0a0027000016] 
+2021-01-29 07:18:58,022 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:18:58,025 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:18:58,070 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 86) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2021-01-29 07:18:58,083 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-7) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-01-29 07:18:58,089 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 85) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2021-01-29 07:18:58,089 INFO  [org.infinispan.PERSISTENCE] (MSC service thread 1-1) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-01-29 07:18:58,120 INFO  [org.infinispan.CONTAINER] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Turia' 10.1.8.Final
+2021-01-29 07:18:58,151 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2021-01-29 07:18:58,273 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-4) AMQ151007: Resource adaptor started
+2021-01-29 07:18:58,274 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2021-01-29 07:18:58,279 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2021-01-29 07:18:58,279 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2021-01-29 07:18:58,317 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 3.1.4 (Final)
+2021-01-29 07:18:58,536 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EvaluacionWSJarro.war#EvaluacionWSJarroPersistenceUnit'
+2021-01-29 07:18:58,537 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ExamenJarroXavierServidor.war#ExamenJarroXavierServidorPersistenceUnit'
+2021-01-29 07:18:58,547 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 86) WFLYCLINF0002: Started client-mappings cache from ejb container
+2021-01-29 07:18:58,596 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [
+	name: EvaluacionWSJarroPersistenceUnit
+	...]
+2021-01-29 07:18:58,596 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 87) HHH000204: Processing PersistenceUnitInfo [
+	name: ExamenJarroXavierServidorPersistenceUnit
+	...]
+2021-01-29 07:18:58,632 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for SitemasTransaccional2PersistenceUnit
+2021-01-29 07:18:58,775 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 85) HHH000412: Hibernate Core {5.3.17.Final}
+2021-01-29 07:18:58,777 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 85) HHH000206: hibernate.properties not found
+2021-01-29 07:18:58,814 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for parqueaderoPersistenceUnit
+2021-01-29 07:18:58,816 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2021-01-29 07:18:59,057 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SitemasTransaccionalDeberSOAP.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:18:59,057 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [
+	name: SitemasTransaccional2PersistenceUnit
+	...]
+2021-01-29 07:18:59,098 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 87) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-01-29 07:18:59,100 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for SitemasTransaccional2PersistenceUnit
+2021-01-29 07:18:59,138 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment SitemasTransaccionalDeberSOAP.war
+2021-01-29 07:18:59,183 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:app/SitemasTransaccionalDeberSOAP/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:global/SitemasTransaccionalDeberSOAP/GestionUsuarios
+	java:app/SitemasTransaccionalDeberSOAP/GestionUsuarios
+	java:module/GestionUsuarios
+
+2021-01-29 07:18:59,183 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:app/SitemasTransaccionalDeberSOAP/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:global/SitemasTransaccionalDeberSOAP/EmpleadoDAO
+	java:app/SitemasTransaccionalDeberSOAP/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2021-01-29 07:18:59,183 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:app/SitemasTransaccionalDeberSOAP/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:global/SitemasTransaccionalDeberSOAP/ClienteDAO
+	java:app/SitemasTransaccionalDeberSOAP/ClienteDAO
+	java:module/ClienteDAO
+
+2021-01-29 07:18:59,184 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:app/SitemasTransaccionalDeberSOAP/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:global/SitemasTransaccionalDeberSOAP/CuentaDeAhorroDAO
+	java:app/SitemasTransaccionalDeberSOAP/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2021-01-29 07:18:59,185 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:app/SitemasTransaccionalDeberSOAP/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:global/SitemasTransaccionalDeberSOAP/TransaccionDAO
+	java:app/SitemasTransaccionalDeberSOAP/TransaccionDAO
+	java:module/TransaccionDAO
+
+2021-01-29 07:18:59,185 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudPolizaDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:app/SitemasTransaccionalDeberSOAP/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:global/SitemasTransaccionalDeberSOAP/SolicitudPolizaDAO
+	java:app/SitemasTransaccionalDeberSOAP/SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO
+
+2021-01-29 07:18:59,185 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:app/SitemasTransaccionalDeberSOAP/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:global/SitemasTransaccionalDeberSOAP/SesionClienteDAO
+	java:app/SitemasTransaccionalDeberSOAP/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2021-01-29 07:18:59,219 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaDAO' in deployment unit 'deployment "SitemasTransaccionalDeberSOAP.war"' are as follows:
+
+	java:global/SitemasTransaccionalDeberSOAP/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:app/SitemasTransaccionalDeberSOAP/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:module/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:global/SitemasTransaccionalDeberSOAP/TransferenciaDAO
+	java:app/SitemasTransaccionalDeberSOAP/TransferenciaDAO
+	java:module/TransferenciaDAO
+
+2021-01-29 07:18:59,301 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'parqueadero.war#parqueaderoPersistenceUnit'
+2021-01-29 07:18:59,301 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 84) HHH000204: Processing PersistenceUnitInfo [
+	name: parqueaderoPersistenceUnit
+	...]
+2021-01-29 07:18:59,321 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/jboss-javaee-webappDS]
+2021-01-29 07:18:59,342 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:18:59,358 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment parqueadero.war
+2021-01-29 07:18:59,406 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ExamenJarroXavierServidor.war#ExamenJarroXavierServidorPersistenceUnit'
+2021-01-29 07:18:59,459 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GestionTicketON' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONLocal
+	java:app/parqueadero/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONLocal
+	java:module/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONLocal
+	java:global/parqueadero/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONRemoto
+	java:app/parqueadero/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONRemoto
+	java:module/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONRemoto
+	java:jboss/exported/parqueadero/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONRemoto
+	ejb:/parqueadero/GestionTicketON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionTicketsONRemoto
+
+2021-01-29 07:18:59,460 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GestionFacturasON' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/GestionFacturasON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionFacturasON
+	java:app/parqueadero/GestionFacturasON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionFacturasON
+	java:module/GestionFacturasON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionFacturasON
+	java:global/parqueadero/GestionFacturasON
+	java:app/parqueadero/GestionFacturasON
+	java:module/GestionFacturasON
+
+2021-01-29 07:18:59,460 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'VehiculoDAO' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/VehiculoDAO!ec.ups.edu.appdis.g1.parqueadero.dao.VehiculoDAO
+	java:app/parqueadero/VehiculoDAO!ec.ups.edu.appdis.g1.parqueadero.dao.VehiculoDAO
+	java:module/VehiculoDAO!ec.ups.edu.appdis.g1.parqueadero.dao.VehiculoDAO
+	java:global/parqueadero/VehiculoDAO
+	java:app/parqueadero/VehiculoDAO
+	java:module/VehiculoDAO
+
+2021-01-29 07:18:59,460 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GestionClientesON' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/GestionClientesON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionClientesON
+	java:app/parqueadero/GestionClientesON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionClientesON
+	java:module/GestionClientesON!ec.ups.edu.appdis.g1.parqueadero.negocio.GestionClientesON
+	java:global/parqueadero/GestionClientesON
+	java:app/parqueadero/GestionClientesON
+	java:module/GestionClientesON
+
+2021-01-29 07:18:59,460 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TicketDAO' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/TicketDAO!ec.ups.edu.appdis.g1.parqueadero.dao.TicketDAO
+	java:app/parqueadero/TicketDAO!ec.ups.edu.appdis.g1.parqueadero.dao.TicketDAO
+	java:module/TicketDAO!ec.ups.edu.appdis.g1.parqueadero.dao.TicketDAO
+	java:global/parqueadero/TicketDAO
+	java:app/parqueadero/TicketDAO
+	java:module/TicketDAO
+
+2021-01-29 07:18:59,460 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/ClienteDAO!ec.ups.edu.appdis.g1.parqueadero.dao.ClienteDAO
+	java:app/parqueadero/ClienteDAO!ec.ups.edu.appdis.g1.parqueadero.dao.ClienteDAO
+	java:module/ClienteDAO!ec.ups.edu.appdis.g1.parqueadero.dao.ClienteDAO
+	java:global/parqueadero/ClienteDAO
+	java:app/parqueadero/ClienteDAO
+	java:module/ClienteDAO
+
+2021-01-29 07:18:59,460 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'FacturaDetalleDAO' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/FacturaDetalleDAO!ec.ups.edu.appdis.g1.parqueadero.dao.FacturaDetalleDAO
+	java:app/parqueadero/FacturaDetalleDAO!ec.ups.edu.appdis.g1.parqueadero.dao.FacturaDetalleDAO
+	java:module/FacturaDetalleDAO!ec.ups.edu.appdis.g1.parqueadero.dao.FacturaDetalleDAO
+	java:global/parqueadero/FacturaDetalleDAO
+	java:app/parqueadero/FacturaDetalleDAO
+	java:module/FacturaDetalleDAO
+
+2021-01-29 07:18:59,475 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'FacturaDAO' in deployment unit 'deployment "parqueadero.war"' are as follows:
+
+	java:global/parqueadero/FacturaDAO!ec.ups.edu.appdis.g1.parqueadero.dao.FacturaDAO
+	java:app/parqueadero/FacturaDAO!ec.ups.edu.appdis.g1.parqueadero.dao.FacturaDAO
+	java:module/FacturaDAO!ec.ups.edu.appdis.g1.parqueadero.dao.FacturaDAO
+	java:global/parqueadero/FacturaDAO
+	java:app/parqueadero/FacturaDAO
+	java:module/FacturaDAO
+
+2021-01-29 07:18:59,477 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EvaluacionWSJarro.war#EvaluacionWSJarroPersistenceUnit'
+2021-01-29 07:18:59,579 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:18:59,608 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:18:59,609 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 84) HHH000204: Processing PersistenceUnitInfo [
+	name: SitemasTransaccional2PersistenceUnit
+	...]
+2021-01-29 07:18:59,674 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment SitemasTransaccional2.war
+2021-01-29 07:18:59,753 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:app/SitemasTransaccional2/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:global/SitemasTransaccional2/GestionUsuarios
+	java:app/SitemasTransaccional2/GestionUsuarios
+	java:module/GestionUsuarios
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'DetallePolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:app/SitemasTransaccional2/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:module/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:global/SitemasTransaccional2/DetallePolizaDAO
+	java:app/SitemasTransaccional2/DetallePolizaDAO
+	java:module/DetallePolizaDAO
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:app/SitemasTransaccional2/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:global/SitemasTransaccional2/EmpleadoDAO
+	java:app/SitemasTransaccional2/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'TranferenciaExternaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:app/SitemasTransaccional2/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:module/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:global/SitemasTransaccional2/TranferenciaExternaDAO
+	java:app/SitemasTransaccional2/TranferenciaExternaDAO
+	java:module/TranferenciaExternaDAO
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:app/SitemasTransaccional2/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:global/SitemasTransaccional2/ClienteDAO
+	java:app/SitemasTransaccional2/ClienteDAO
+	java:module/ClienteDAO
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:app/SitemasTransaccional2/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:global/SitemasTransaccional2/CuentaDeAhorroDAO
+	java:app/SitemasTransaccional2/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:app/SitemasTransaccional2/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:global/SitemasTransaccional2/TransaccionDAO
+	java:app/SitemasTransaccional2/TransaccionDAO
+	java:module/TransaccionDAO
+
+2021-01-29 07:18:59,754 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudPolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:app/SitemasTransaccional2/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:global/SitemasTransaccional2/SolicitudPolizaDAO
+	java:app/SitemasTransaccional2/SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO
+
+2021-01-29 07:18:59,797 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:app/SitemasTransaccional2/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:global/SitemasTransaccional2/SesionClienteDAO
+	java:app/SitemasTransaccional2/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2021-01-29 07:18:59,797 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'PolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:app/SitemasTransaccional2/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:module/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:global/SitemasTransaccional2/PolizaDAO
+	java:app/SitemasTransaccional2/PolizaDAO
+	java:module/PolizaDAO
+
+2021-01-29 07:18:59,797 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:app/SitemasTransaccional2/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:module/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:global/SitemasTransaccional2/TransferenciaDAO
+	java:app/SitemasTransaccional2/TransferenciaDAO
+	java:module/TransferenciaDAO
+
+2021-01-29 07:18:59,836 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-3) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2021-01-29 07:18:59,844 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 85) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:18:59,851 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 87) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:18:59,894 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:18:59,957 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=ec.ups.edu.appdis.g1.parqueadero.services.ClientesServiceSOAP
+ address=http://localhost:8083/parqueadero/ClientesServiceSOAP
+ implementor=ec.ups.edu.appdis.g1.parqueadero.services.ClientesServiceSOAP
+ serviceName={http://services.parqueadero.g1.appdis.edu.ups.ec/}ClientesServiceSOAPService
+ portName={http://services.parqueadero.g1.appdis.edu.ups.ec/}ClientesServiceSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2021-01-29 07:18:59,957 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.service.ServiciosBancoSOAP
+ address=http://localhost:8083/SitemasTransaccionalDeberSOAP/ServiciosBancoSOAP
+ implementor=ec.edu.ups.service.ServiciosBancoSOAP
+ serviceName={http://service.ups.edu.ec/}ServiciosBancoSOAPService
+ portName={http://service.ups.edu.ec/}ServiciosBancoSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2021-01-29 07:19:00,137 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 85) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:19:00,137 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 87) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:19:00,146 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 85) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:19:00,146 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 87) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:19:00,155 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 85) Envers integration enabled? : true
+2021-01-29 07:19:00,155 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 87) Envers integration enabled? : true
+2021-01-29 07:19:00,323 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-6) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2021-01-29 07:19:00,323 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-6) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In SitemasTransaccional2.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2021-01-29 07:19:00,396 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 84) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:19:00,447 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 84) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:19:00,613 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 84) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:19:00,613 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 84) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:19:00,615 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 84) Envers integration enabled? : true
+2021-01-29 07:19:00,870 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://services.parqueadero.g1.appdis.edu.ups.ec/}ClientesServiceSOAPService from class ec.ups.edu.appdis.g1.parqueadero.services.ClientesServiceSOAP
+2021-01-29 07:19:00,870 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://service.ups.edu.ec/}ServiciosBancoSOAPService from class ec.edu.ups.service.ServiciosBancoSOAP
+2021-01-29 07:19:01,682 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8083/parqueadero/ClientesServiceSOAP
+2021-01-29 07:19:01,682 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8083/SitemasTransaccionalDeberSOAP/ServiciosBancoSOAP
+2021-01-29 07:19:01,769 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/Users/xa_cx/Downloads/APP DISTRIBUIDAS/jee/wildfly-20.0.0.Final/wildfly-20.0.0.Final/standalone/data/wsdl/parqueadero.war/ClientesServiceSOAPService.wsdl
+2021-01-29 07:19:01,776 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/Users/xa_cx/Downloads/APP DISTRIBUIDAS/jee/wildfly-20.0.0.Final/wildfly-20.0.0.Final/standalone/data/wsdl/SitemasTransaccionalDeberSOAP.war/ServiciosBancoSOAPService.wsdl
+2021-01-29 07:19:01,817 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0003: Starting service jboss.ws.endpoint."parqueadero.war"."ec.ups.edu.appdis.g1.parqueadero.services.ClientesServiceSOAP"
+2021-01-29 07:19:01,817 INFO  [org.jboss.as.webservices] (MSC service thread 1-3) WFLYWS0003: Starting service jboss.ws.endpoint."SitemasTransaccionalDeberSOAP.war"."ec.edu.ups.service.ServiciosBancoSOAP"
+2021-01-29 07:19:01,860 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'parqueadero.war#parqueaderoPersistenceUnit'
+2021-01-29 07:19:01,876 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 88) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SitemasTransaccionalDeberSOAP.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:19:01,882 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 88) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:19:01,900 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 88) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:19:01,901 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 88) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:19:01,903 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 88) Envers integration enabled? : true
+2021-01-29 07:19:01,937 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 86) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:19:01,972 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 84) version is missing in the configuration file
+2021-01-29 07:19:01,972 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 88) version is missing in the configuration file
+2021-01-29 07:19:01,972 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 87) version is missing in the configuration file
+2021-01-29 07:19:01,972 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 85) version is missing in the configuration file
+2021-01-29 07:19:01,977 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 85) version is missing in the configuration file
+2021-01-29 07:19:01,977 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 87) version is missing in the configuration file
+2021-01-29 07:19:01,978 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 88) version is missing in the configuration file
+2021-01-29 07:19:01,978 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 84) version is missing in the configuration file
+2021-01-29 07:19:01,980 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 85) version is missing in the configuration file
+2021-01-29 07:19:01,980 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 87) version is missing in the configuration file
+2021-01-29 07:19:01,980 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 84) version is missing in the configuration file
+2021-01-29 07:19:01,980 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 88) version is missing in the configuration file
+2021-01-29 07:19:01,982 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 84) version is missing in the configuration file
+2021-01-29 07:19:01,983 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 87) version is missing in the configuration file
+2021-01-29 07:19:01,985 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 88) version is missing in the configuration file
+2021-01-29 07:19:01,986 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 87) version is missing in the configuration file
+2021-01-29 07:19:01,987 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 85) version is missing in the configuration file
+2021-01-29 07:19:01,987 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 88) version is missing in the configuration file
+2021-01-29 07:19:01,988 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 87) version is missing in the configuration file
+2021-01-29 07:19:01,989 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 88) version is missing in the configuration file
+2021-01-29 07:19:01,990 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 84) version is missing in the configuration file
+2021-01-29 07:19:01,993 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 85) version is missing in the configuration file
+2021-01-29 07:19:01,996 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 85) version is missing in the configuration file
+2021-01-29 07:19:01,998 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 84) version is missing in the configuration file
+2021-01-29 07:19:02,088 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 86) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:19:02,088 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 86) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:19:02,090 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 86) Envers integration enabled? : true
+2021-01-29 07:19:02,111 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 86) version is missing in the configuration file
+2021-01-29 07:19:02,113 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 86) version is missing in the configuration file
+2021-01-29 07:19:02,115 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 86) version is missing in the configuration file
+2021-01-29 07:19:02,117 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 86) version is missing in the configuration file
+2021-01-29 07:19:02,119 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 86) version is missing in the configuration file
+2021-01-29 07:19:02,121 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 86) version is missing in the configuration file
+2021-01-29 07:19:02,627 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:19:02,660 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:19:02,670 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:19:02,699 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:19:02,732 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:19:02,732 INFO  [io.smallrye.metrics] (MSC service thread 1-1) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:19:02,734 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:19:02,742 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:19:02,742 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:19:02,752 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:19:03,636 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 87) Inicializando Mojarra 2.3.9.SP10 para el contexto '/SitemasTransaccional2'
+2021-01-29 07:19:03,636 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 84) Inicializando Mojarra 2.3.9.SP10 para el contexto '/ExamenJarroXavierServidor'
+2021-01-29 07:19:03,636 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 88) Inicializando Mojarra 2.3.9.SP10 para el contexto '/parqueadero'
+2021-01-29 07:19:03,637 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 86) Inicializando Mojarra 2.3.9.SP10 para el contexto '/EvaluacionWSJarro'
+2021-01-29 07:19:03,638 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 85) Inicializando Mojarra 2.3.9.SP10 para el contexto '/SitemasTransaccionalDeberSOAP'
+2021-01-29 07:19:04,592 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/ExamenJarroXavierServidor' for server 'default-server'
+2021-01-29 07:19:05,040 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 86) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.edu.ups.service.RestApplication$Proxy$_$$_WeldClientProxy
+2021-01-29 07:19:05,127 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/EvaluacionWSJarro' for server 'default-server'
+2021-01-29 07:19:05,777 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 88) Running on PrimeFaces 8.0
+2021-01-29 07:19:05,784 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0021: Registered web context: '/parqueadero' for server 'default-server'
+2021-01-29 07:19:05,789 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 85) Running on PrimeFaces 8.0
+2021-01-29 07:19:05,792 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 87) Running on PrimeFaces 8.0
+2021-01-29 07:19:05,795 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0021: Registered web context: '/SitemasTransaccional2' for server 'default-server'
+2021-01-29 07:19:05,824 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 85) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.edu.ups.service.RestApplication
+2021-01-29 07:19:05,829 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/SitemasTransaccionalDeberSOAP' for server 'default-server'
+2021-01-29 07:19:05,924 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "SitemasTransaccionalDeberSOAP.war" (runtime-name : "SitemasTransaccionalDeberSOAP.war")
+2021-01-29 07:19:05,925 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "SitemasTransaccional2.war" (runtime-name : "SitemasTransaccional2.war")
+2021-01-29 07:19:05,925 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "parqueadero.war" (runtime-name : "parqueadero.war")
+2021-01-29 07:19:05,925 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "ExamenJarroXavierServidor.war" (runtime-name : "ExamenJarroXavierServidor.war")
+2021-01-29 07:19:05,925 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "EvaluacionWSJarro.war" (runtime-name : "EvaluacionWSJarro.war")
+2021-01-29 07:19:05,994 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-01-29 07:19:05,996 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 20.0.0.Final (WildFly Core 12.0.1.Final) started in 16460ms - Started 1642 of 1860 services (418 services are lazy, passive or on-demand)
+2021-01-29 07:19:06,000 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9993/management
+2021-01-29 07:19:06,000 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9993
+2021-01-29 07:26:49,277 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: '/SitemasTransaccional2' from server 'default-server'
+2021-01-29 07:26:49,302 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 144) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:26:49,305 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 144) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@46293b53
+2021-01-29 07:26:49,310 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 144) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:26:49,401 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment SitemasTransaccional2.war (runtime-name: SitemasTransaccional2.war) in 142ms
+2021-01-29 07:26:49,455 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "SitemasTransaccional2.war" (runtime-name: "SitemasTransaccional2.war")
+2021-01-29 07:26:51,636 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found SitemasTransaccional2.war in deployment directory. To trigger deployment create a file called SitemasTransaccional2.war.dodeploy
+2021-01-29 07:26:56,663 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "SitemasTransaccional2.war" (runtime-name: "SitemasTransaccional2.war")
+2021-01-29 07:26:58,480 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for SitemasTransaccional2PersistenceUnit
+2021-01-29 07:26:58,723 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 144) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:26:58,723 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 144) HHH000204: Processing PersistenceUnitInfo [
+	name: SitemasTransaccional2PersistenceUnit
+	...]
+2021-01-29 07:26:58,776 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment SitemasTransaccional2.war
+2021-01-29 07:26:58,821 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:app/SitemasTransaccional2/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:global/SitemasTransaccional2/GestionUsuarios
+	java:app/SitemasTransaccional2/GestionUsuarios
+	java:module/GestionUsuarios
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DetallePolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:app/SitemasTransaccional2/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:module/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:global/SitemasTransaccional2/DetallePolizaDAO
+	java:app/SitemasTransaccional2/DetallePolizaDAO
+	java:module/DetallePolizaDAO
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:app/SitemasTransaccional2/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:global/SitemasTransaccional2/EmpleadoDAO
+	java:app/SitemasTransaccional2/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TranferenciaExternaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:app/SitemasTransaccional2/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:module/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:global/SitemasTransaccional2/TranferenciaExternaDAO
+	java:app/SitemasTransaccional2/TranferenciaExternaDAO
+	java:module/TranferenciaExternaDAO
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:app/SitemasTransaccional2/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:global/SitemasTransaccional2/ClienteDAO
+	java:app/SitemasTransaccional2/ClienteDAO
+	java:module/ClienteDAO
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:app/SitemasTransaccional2/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:global/SitemasTransaccional2/CuentaDeAhorroDAO
+	java:app/SitemasTransaccional2/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:app/SitemasTransaccional2/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:global/SitemasTransaccional2/TransaccionDAO
+	java:app/SitemasTransaccional2/TransaccionDAO
+	java:module/TransaccionDAO
+
+2021-01-29 07:26:58,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudPolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:app/SitemasTransaccional2/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:global/SitemasTransaccional2/SolicitudPolizaDAO
+	java:app/SitemasTransaccional2/SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO
+
+2021-01-29 07:26:58,837 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:app/SitemasTransaccional2/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:global/SitemasTransaccional2/SesionClienteDAO
+	java:app/SitemasTransaccional2/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2021-01-29 07:26:58,837 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'PolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:app/SitemasTransaccional2/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:module/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:global/SitemasTransaccional2/PolizaDAO
+	java:app/SitemasTransaccional2/PolizaDAO
+	java:module/PolizaDAO
+
+2021-01-29 07:26:58,837 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:app/SitemasTransaccional2/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:module/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:global/SitemasTransaccional2/TransferenciaDAO
+	java:app/SitemasTransaccional2/TransferenciaDAO
+	java:module/TransferenciaDAO
+
+2021-01-29 07:26:58,882 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:26:59,118 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-2) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2021-01-29 07:26:59,118 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-2) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In SitemasTransaccional2.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2021-01-29 07:26:59,164 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 144) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:26:59,164 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 144) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:26:59,173 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 144) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:26:59,173 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 144) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:26:59,175 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 144) Envers integration enabled? : true
+2021-01-29 07:26:59,199 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 144) version is missing in the configuration file
+2021-01-29 07:26:59,200 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 144) version is missing in the configuration file
+2021-01-29 07:26:59,202 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 144) version is missing in the configuration file
+2021-01-29 07:26:59,203 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 144) version is missing in the configuration file
+2021-01-29 07:26:59,205 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 144) version is missing in the configuration file
+2021-01-29 07:26:59,206 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 144) version is missing in the configuration file
+2021-01-29 07:26:59,356 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:26:59,359 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:26:59,536 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 144) Inicializando Mojarra 2.3.9.SP10 para el contexto '/SitemasTransaccional2'
+2021-01-29 07:27:00,557 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 144) Running on PrimeFaces 8.0
+2021-01-29 07:27:00,560 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 144) WFLYUT0021: Registered web context: '/SitemasTransaccional2' for server 'default-server'
+2021-01-29 07:27:00,605 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "SitemasTransaccional2.war" (runtime-name : "SitemasTransaccional2.war")
+2021-01-29 07:27:45,813 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 147) WFLYUT0022: Unregistered web context: '/SitemasTransaccional2' from server 'default-server'
+2021-01-29 07:27:45,830 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 158) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:27:45,832 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 158) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@699c89af
+2021-01-29 07:27:45,832 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 158) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:27:45,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment SitemasTransaccional2.war (runtime-name: SitemasTransaccional2.war) in 89ms
+2021-01-29 07:27:45,912 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "SitemasTransaccional2.war" (runtime-name: "SitemasTransaccional2.war")
+2021-01-29 07:27:50,676 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found SitemasTransaccional2.war in deployment directory. To trigger deployment create a file called SitemasTransaccional2.war.dodeploy
+2021-01-29 07:27:50,681 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "SitemasTransaccional2.war" (runtime-name: "SitemasTransaccional2.war")
+2021-01-29 07:27:52,698 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for SitemasTransaccional2PersistenceUnit
+2021-01-29 07:27:52,894 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 158) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:27:52,895 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 158) HHH000204: Processing PersistenceUnitInfo [
+	name: SitemasTransaccional2PersistenceUnit
+	...]
+2021-01-29 07:27:52,924 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment SitemasTransaccional2.war
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:app/SitemasTransaccional2/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.negocio.GestionUsuarioLocal
+	java:global/SitemasTransaccional2/GestionUsuarios
+	java:app/SitemasTransaccional2/GestionUsuarios
+	java:module/GestionUsuarios
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DetallePolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:app/SitemasTransaccional2/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:module/DetallePolizaDAO!ec.edu.ups.dao.DetallePolizaDAO
+	java:global/SitemasTransaccional2/DetallePolizaDAO
+	java:app/SitemasTransaccional2/DetallePolizaDAO
+	java:module/DetallePolizaDAO
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:app/SitemasTransaccional2/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.dao.EmpleadoDAO
+	java:global/SitemasTransaccional2/EmpleadoDAO
+	java:app/SitemasTransaccional2/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TranferenciaExternaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:app/SitemasTransaccional2/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:module/TranferenciaExternaDAO!ec.edu.ups.dao.TranferenciaExternaDAO
+	java:global/SitemasTransaccional2/TranferenciaExternaDAO
+	java:app/SitemasTransaccional2/TranferenciaExternaDAO
+	java:module/TranferenciaExternaDAO
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:app/SitemasTransaccional2/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.dao.ClienteDAO
+	java:global/SitemasTransaccional2/ClienteDAO
+	java:app/SitemasTransaccional2/ClienteDAO
+	java:module/ClienteDAO
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:app/SitemasTransaccional2/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.dao.CuentaDeAhorroDAO
+	java:global/SitemasTransaccional2/CuentaDeAhorroDAO
+	java:app/SitemasTransaccional2/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:app/SitemasTransaccional2/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.dao.TransaccionDAO
+	java:global/SitemasTransaccional2/TransaccionDAO
+	java:app/SitemasTransaccional2/TransaccionDAO
+	java:module/TransaccionDAO
+
+2021-01-29 07:27:52,958 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudPolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:app/SitemasTransaccional2/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO!ec.edu.ups.dao.SolicitudPolizaDAO
+	java:global/SitemasTransaccional2/SolicitudPolizaDAO
+	java:app/SitemasTransaccional2/SolicitudPolizaDAO
+	java:module/SolicitudPolizaDAO
+
+2021-01-29 07:27:52,997 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:app/SitemasTransaccional2/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.dao.SesionClienteDAO
+	java:global/SitemasTransaccional2/SesionClienteDAO
+	java:app/SitemasTransaccional2/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2021-01-29 07:27:52,997 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PolizaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:app/SitemasTransaccional2/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:module/PolizaDAO!ec.edu.ups.dao.PolizaDAO
+	java:global/SitemasTransaccional2/PolizaDAO
+	java:app/SitemasTransaccional2/PolizaDAO
+	java:module/PolizaDAO
+
+2021-01-29 07:27:52,997 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaDAO' in deployment unit 'deployment "SitemasTransaccional2.war"' are as follows:
+
+	java:global/SitemasTransaccional2/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:app/SitemasTransaccional2/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:module/TransferenciaDAO!ec.edu.ups.dao.TransferenciaDAO
+	java:global/SitemasTransaccional2/TransferenciaDAO
+	java:app/SitemasTransaccional2/TransferenciaDAO
+	java:module/TransferenciaDAO
+
+2021-01-29 07:27:53,036 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-01-29 07:27:53,226 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2021-01-29 07:27:53,226 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0015: No Servlet declaration found for JAX-RS application.  In SitemasTransaccional2.war either provide a class that extends javax.ws.rs.core.Application or declare a servlet class in web.xml.
+2021-01-29 07:27:53,265 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 158) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'SitemasTransaccional2.war#SitemasTransaccional2PersistenceUnit'
+2021-01-29 07:27:53,266 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 158) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2021-01-29 07:27:53,273 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 158) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2021-01-29 07:27:53,273 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 158) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4a6004dd
+2021-01-29 07:27:53,274 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 158) Envers integration enabled? : true
+2021-01-29 07:27:53,296 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 158) version is missing in the configuration file
+2021-01-29 07:27:53,297 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 158) version is missing in the configuration file
+2021-01-29 07:27:53,298 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 158) version is missing in the configuration file
+2021-01-29 07:27:53,299 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 158) version is missing in the configuration file
+2021-01-29 07:27:53,300 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 158) version is missing in the configuration file
+2021-01-29 07:27:53,301 WARNING [org.jgroups.conf.XmlConfigurator] (ServerService Thread Pool -- 158) version is missing in the configuration file
+2021-01-29 07:27:53,419 INFO  [io.smallrye.metrics] (MSC service thread 1-3) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.0)
+2021-01-29 07:27:53,422 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-01-29 07:27:53,568 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 158) Inicializando Mojarra 2.3.9.SP10 para el contexto '/SitemasTransaccional2'
+2021-01-29 07:27:54,416 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 158) Running on PrimeFaces 8.0
+2021-01-29 07:27:54,417 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 158) WFLYUT0021: Registered web context: '/SitemasTransaccional2' for server 'default-server'
+2021-01-29 07:27:54,458 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "SitemasTransaccional2.war" (runtime-name : "SitemasTransaccional2.war")
+2021-01-29 07:28:22,364 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-5) HHH000397: Using ASTQueryTranslatorFactory
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5) Hibernate: 
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)     select
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.cedula as cedula1_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.apellido as apellido2_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.contrasena as contrase3_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.correo as correo4_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.direccion as direccio5_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.nombre as nombre6_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.rol as rol7_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.telefono as telefono8_3_,
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.usuario as usuario9_3_ 
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)     from
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         Empleado empleado0_ 
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)     where
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         empleado0_.usuario=? 
+2021-01-29 07:28:22,467 INFO  [stdout] (default task-5)         and empleado0_.contrasena=?
+2021-01-29 07:28:22,502 INFO  [stdout] (default task-5) ERRORmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmkkkNO SE PUEDO INGRESAR, REVISE USUARIO CONTRASEÑA
+2021-01-29 07:28:28,919 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:28,919 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:28,919 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_,
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_ 
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:28,920 INFO  [stdout] (default task-1)         Cliente cliente0_
+2021-01-29 07:28:28,936 INFO  [stdout] (default task-1) PASO LA LISTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2021-01-29 07:28:28,936 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2021-01-29 07:28:28,936 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2021-01-29 07:28:28,936 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL IFFFFFFFFFFFFFF CORRECTO
+2021-01-29 07:28:28,941 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         sesionclie0_.codigoSesion as codigoSe1_6_,
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         sesionclie0_.cedula_cliente as cedula_c4_6_,
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         sesionclie0_.estado as estado2_6_,
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         sesionclie0_.fechaSesion as fechaSes3_6_ 
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         SesionCliente sesionclie0_ 
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         sesionclie0_.cedula_cliente=? 
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)     order by
+2021-01-29 07:28:28,942 INFO  [stdout] (default task-1)         sesionclie0_.fechaSesion desc
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:28,969 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1)         cliente_.cedula_cliente,
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1)         cliente_.apellido as apellido2_0_,
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1)         cliente_.clave as clave3_0_,
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1)         cliente_.correo as correo4_0_,
+2021-01-29 07:28:28,993 INFO  [stdout] (default task-1)         cliente_.direccion as direccio5_0_,
+2021-01-29 07:28:28,994 INFO  [stdout] (default task-1)         cliente_.nombre as nombre6_0_,
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)         cliente_.telefono1 as telefono7_0_,
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)         cliente_.telefono2 as telefono8_0_,
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)         cliente_.usuario as usuario9_0_ 
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)         Cliente cliente_ 
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,150 INFO  [stdout] (default task-1)         cliente_.cedula_cliente=?
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1)     insert 
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1)     into
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1)         SesionCliente
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1)         (cedula_cliente, estado, fechaSesion) 
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1)     values
+2021-01-29 07:28:29,158 INFO  [stdout] (default task-1)         (?, ?, ?)
+2021-01-29 07:28:29,181 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_,
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_ 
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,195 INFO  [stdout] (default task-1)         Cliente cliente0_
+2021-01-29 07:28:29,198 INFO  [stdout] (default task-1) 3
+2021-01-29 07:28:29,204 INFO  [stdout] (default task-1) ENTRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA al if
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)         cuentadeah0_.numero_cuenta as numero_c1_1_,
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)         cuentadeah0_.cedula_cliente as cedula_c4_1_,
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)         cuentadeah0_.fechaDeRegistro as fechaDeR2_1_,
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_1_ 
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)         CuentaDeAhorro cuentadeah0_ 
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,208 INFO  [stdout] (default task-1)         cuentadeah0_.cedula_cliente=?
+2021-01-29 07:28:29,214 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,215 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2021-01-29 07:28:29,217 INFO  [stdout] (default task-1) 0107337388---------------------------------------------------------cdeula
+2021-01-29 07:28:29,221 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,221 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,221 INFO  [stdout] (default task-1)         transaccio0_.codigoTransaccion as codigoTr1_8_,
+2021-01-29 07:28:29,221 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente as cedula_c6_8_,
+2021-01-29 07:28:29,221 INFO  [stdout] (default task-1)         transaccio0_.fecha as fecha2_8_,
+2021-01-29 07:28:29,221 INFO  [stdout] (default task-1)         transaccio0_.monto as monto3_8_,
+2021-01-29 07:28:29,222 INFO  [stdout] (default task-1)         transaccio0_.saldoCuenta as saldoCue4_8_,
+2021-01-29 07:28:29,222 INFO  [stdout] (default task-1)         transaccio0_.tipo as tipo5_8_ 
+2021-01-29 07:28:29,222 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,222 INFO  [stdout] (default task-1)         Transaccion transaccio0_ 
+2021-01-29 07:28:29,222 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,222 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente=?
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:28:29,229 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:28:29,230 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:28:29,230 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:28:29,230 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:28:29,230 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:28:29,256 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,256 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2021-01-29 07:28:29,256 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,256 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.codigoTransaccion as codigoTr1_8_,
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente as cedula_c6_8_,
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.fecha as fecha2_8_,
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.monto as monto3_8_,
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.saldoCuenta as saldoCue4_8_,
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.tipo as tipo5_8_ 
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         Transaccion transaccio0_ 
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente='0107337388' 
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         and (
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)             transaccio0_.fecha between '2020-12-30 00:00:00.000000' and '2021-01-29 23:59:59.000000'
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         ) 
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)     order by
+2021-01-29 07:28:29,266 INFO  [stdout] (default task-1)         transaccio0_.fecha DESC
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,269 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2021-01-29 07:28:29,271 INFO  [stdout] (default task-1) 4
+2021-01-29 07:28:29,271 INFO  [stdout] (default task-1) 0107337388
+2021-01-29 07:28:29,272 INFO  [stdout] (default task-1) 404000000002---------------------------------------------------------
+2021-01-29 07:28:29,272 INFO  [stdout] (default task-1) ENTRO EN ESTE PINCHE METODO0107337388
+2021-01-29 07:28:29,274 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,274 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,274 INFO  [stdout] (default task-1)         poliza0_.codigoPol as codigoPo1_4_,
+2021-01-29 07:28:29,274 INFO  [stdout] (default task-1)         poliza0_.estado as estado2_4_,
+2021-01-29 07:28:29,274 INFO  [stdout] (default task-1)         poliza0_.fechaRegistro as fechaReg3_4_,
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)         poliza0_.fechaVencimiento as fechaVen4_4_,
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)         poliza0_.interes as interes5_4_,
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)         poliza0_.jefeC_cedula as jefeC_ce8_4_,
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)         poliza0_.monto as monto6_4_,
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)         poliza0_.solicitud_codigoPoliza as solicitu9_4_,
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)         poliza0_.tasa as tasa7_4_ 
+2021-01-29 07:28:29,275 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,309 INFO  [stdout] (default task-1)         Poliza poliza0_
+2021-01-29 07:28:29,322 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_3_0_,
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_3_0_ 
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         Empleado empleado0_ 
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,323 INFO  [stdout] (default task-1)         empleado0_.cedula=?
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.codigoPoliza as codigoPo1_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.arCedula as arCedula2_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.arPlanillaServicios as arPlanil3_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.cantidadPolizas as cantidad4_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.clientePoliza_cedula_cliente as cliente10_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.estado as estado5_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.mesesPoliza as mesesPol6_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.montoPoliza as montoPol7_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.saldoCuenta as saldoCue8_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         solicitudp0_.tasaPoliza as tasaPoli9_7_0_,
+2021-01-29 07:28:29,324 INFO  [stdout] (default task-1)         cliente1_.cedula_cliente as cedula_c1_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.apellido as apellido2_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.clave as clave3_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.correo as correo4_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.direccion as direccio5_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.nombre as nombre6_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.telefono1 as telefono7_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.telefono2 as telefono8_0_1_,
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         cliente1_.usuario as usuario9_0_1_ 
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         SolicitudPoliza solicitudp0_ 
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)     left outer join
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         Cliente cliente1_ 
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)             on solicitudp0_.clientePoliza_cedula_cliente=cliente1_.cedula_cliente 
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,325 INFO  [stdout] (default task-1)         solicitudp0_.codigoPoliza=?
+2021-01-29 07:28:29,357 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,357 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,357 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:28:29,357 INFO  [stdout] (default task-1)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:28:29,357 INFO  [stdout] (default task-1)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)     inner join
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         DetallePoliza detallepol1_ 
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,361 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)     inner join
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)         DetallePoliza detallepol1_ 
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:28:29,369 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,370 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:28:29,371 INFO  [stdout] (default task-1)     inner join
+2021-01-29 07:28:29,372 INFO  [stdout] (default task-1)         DetallePoliza detallepol1_ 
+2021-01-29 07:28:29,372 INFO  [stdout] (default task-1)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:28:29,372 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,372 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1) Hibernate: 
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)     select
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)     from
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)     inner join
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         DetallePoliza detallepol1_ 
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)     where
+2021-01-29 07:28:29,415 INFO  [stdout] (default task-1)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:31:57,114 INFO  [stdout] (default task-2) ENTRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA al if
+2021-01-29 07:31:57,116 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,116 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,116 INFO  [stdout] (default task-2)         cuentadeah0_.numero_cuenta as numero_c1_1_,
+2021-01-29 07:31:57,116 INFO  [stdout] (default task-2)         cuentadeah0_.cedula_cliente as cedula_c4_1_,
+2021-01-29 07:31:57,116 INFO  [stdout] (default task-2)         cuentadeah0_.fechaDeRegistro as fechaDeR2_1_,
+2021-01-29 07:31:57,116 INFO  [stdout] (default task-2)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_1_ 
+2021-01-29 07:31:57,117 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,117 INFO  [stdout] (default task-2)         CuentaDeAhorro cuentadeah0_ 
+2021-01-29 07:31:57,117 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,117 INFO  [stdout] (default task-2)         cuentadeah0_.cedula_cliente=?
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         Cliente cliente0_ 
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,119 INFO  [stdout] (default task-2)         cliente0_.cedula_cliente=?
+2021-01-29 07:31:57,121 INFO  [stdout] (default task-2) 0107337388---------------------------------------------------------cdeula
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.codigoTransaccion as codigoTr1_8_,
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.cedula_cliente as cedula_c6_8_,
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.fecha as fecha2_8_,
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.monto as monto3_8_,
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.saldoCuenta as saldoCue4_8_,
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.tipo as tipo5_8_ 
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         Transaccion transaccio0_ 
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,123 INFO  [stdout] (default task-2)         transaccio0_.cedula_cliente=?
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:31:57,126 INFO  [stdout] (default task-2)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:31:57,405 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,405 INFO  [stdout] (default task-2)         Cliente cliente0_ 
+2021-01-29 07:31:57,405 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,405 INFO  [stdout] (default task-2)         cliente0_.cedula_cliente=?
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.codigoTransaccion as codigoTr1_8_,
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.cedula_cliente as cedula_c6_8_,
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.fecha as fecha2_8_,
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.monto as monto3_8_,
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.saldoCuenta as saldoCue4_8_,
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.tipo as tipo5_8_ 
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         Transaccion transaccio0_ 
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.cedula_cliente='0107337388' 
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         and (
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)             transaccio0_.fecha between '2020-12-30 00:00:00.000000' and '2021-01-29 23:59:59.000000'
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         ) 
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)     order by
+2021-01-29 07:31:57,410 INFO  [stdout] (default task-2)         transaccio0_.fecha DESC
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.apellido as apellido2_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.clave as clave3_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.correo as correo4_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.direccion as direccio5_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.nombre as nombre6_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.telefono1 as telefono7_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.telefono2 as telefono8_0_0_,
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.usuario as usuario9_0_0_ 
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         Cliente cliente0_ 
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,412 INFO  [stdout] (default task-2)         cliente0_.cedula_cliente=?
+2021-01-29 07:31:57,415 INFO  [stdout] (default task-2) 4
+2021-01-29 07:31:57,415 INFO  [stdout] (default task-2) 0107337388
+2021-01-29 07:31:57,416 INFO  [stdout] (default task-2) 404000000002---------------------------------------------------------
+2021-01-29 07:31:57,416 INFO  [stdout] (default task-2) ENTRO EN ESTE PINCHE METODO0107337388
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2)         poliza0_.codigoPol as codigoPo1_4_,
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2)         poliza0_.estado as estado2_4_,
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2)         poliza0_.fechaRegistro as fechaReg3_4_,
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2)         poliza0_.fechaVencimiento as fechaVen4_4_,
+2021-01-29 07:31:57,417 INFO  [stdout] (default task-2)         poliza0_.interes as interes5_4_,
+2021-01-29 07:31:57,418 INFO  [stdout] (default task-2)         poliza0_.jefeC_cedula as jefeC_ce8_4_,
+2021-01-29 07:31:57,418 INFO  [stdout] (default task-2)         poliza0_.monto as monto6_4_,
+2021-01-29 07:31:57,418 INFO  [stdout] (default task-2)         poliza0_.solicitud_codigoPoliza as solicitu9_4_,
+2021-01-29 07:31:57,418 INFO  [stdout] (default task-2)         poliza0_.tasa as tasa7_4_ 
+2021-01-29 07:31:57,418 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,457 INFO  [stdout] (default task-2)         Poliza poliza0_
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.cedula as cedula1_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.apellido as apellido2_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.contrasena as contrase3_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.correo as correo4_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.direccion as direccio5_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.nombre as nombre6_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.rol as rol7_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.telefono as telefono8_3_0_,
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.usuario as usuario9_3_0_ 
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         Empleado empleado0_ 
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,459 INFO  [stdout] (default task-2)         empleado0_.cedula=?
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.codigoPoliza as codigoPo1_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.arCedula as arCedula2_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.arPlanillaServicios as arPlanil3_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.cantidadPolizas as cantidad4_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.clientePoliza_cedula_cliente as cliente10_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.estado as estado5_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.mesesPoliza as mesesPol6_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.montoPoliza as montoPol7_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.saldoCuenta as saldoCue8_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         solicitudp0_.tasaPoliza as tasaPoli9_7_0_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.cedula_cliente as cedula_c1_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.apellido as apellido2_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.clave as clave3_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.correo as correo4_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.direccion as direccio5_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.nombre as nombre6_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.telefono1 as telefono7_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.telefono2 as telefono8_0_1_,
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         cliente1_.usuario as usuario9_0_1_ 
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)         SolicitudPoliza solicitudp0_ 
+2021-01-29 07:31:57,460 INFO  [stdout] (default task-2)     left outer join
+2021-01-29 07:31:57,461 INFO  [stdout] (default task-2)         Cliente cliente1_ 
+2021-01-29 07:31:57,461 INFO  [stdout] (default task-2)             on solicitudp0_.clientePoliza_cedula_cliente=cliente1_.cedula_cliente 
+2021-01-29 07:31:57,461 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,461 INFO  [stdout] (default task-2)         solicitudp0_.codigoPoliza=?
+2021-01-29 07:31:57,476 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,476 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,476 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:31:57,476 INFO  [stdout] (default task-2)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:31:57,476 INFO  [stdout] (default task-2)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)     inner join
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         DetallePoliza detallepol1_ 
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,510 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,511 INFO  [stdout] (default task-2)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:31:57,512 INFO  [stdout] (default task-2)     inner join
+2021-01-29 07:31:57,512 INFO  [stdout] (default task-2)         DetallePoliza detallepol1_ 
+2021-01-29 07:31:57,512 INFO  [stdout] (default task-2)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:31:57,512 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,512 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)     inner join
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         DetallePoliza detallepol1_ 
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,513 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol=?
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2) Hibernate: 
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)     select
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol as Poliza_c1_5_0_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detalles0_.detalles_codigoDetalle as detalles2_5_0_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.codigoDetalle as codigoDe1_2_1_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.estado as estado2_2_1_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.fecha as fecha3_2_1_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.interes as interes4_2_1_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.monto as monto5_2_1_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.numeroCuota as numeroCu6_2_1_,
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)         detallepol1_.saldo as saldo7_2_1_ 
+2021-01-29 07:31:57,563 INFO  [stdout] (default task-2)     from
+2021-01-29 07:31:57,564 INFO  [stdout] (default task-2)         Poliza_DetallePoliza detalles0_ 
+2021-01-29 07:31:57,564 INFO  [stdout] (default task-2)     inner join
+2021-01-29 07:31:57,564 INFO  [stdout] (default task-2)         DetallePoliza detallepol1_ 
+2021-01-29 07:31:57,564 INFO  [stdout] (default task-2)             on detalles0_.detalles_codigoDetalle=detallepol1_.codigoDetalle 
+2021-01-29 07:31:57,564 INFO  [stdout] (default task-2)     where
+2021-01-29 07:31:57,564 INFO  [stdout] (default task-2)         detalles0_.Poliza_codigoPol=?

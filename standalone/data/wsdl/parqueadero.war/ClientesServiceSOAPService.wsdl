@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://services.parqueadero.g1.appdis.edu.ups.ec/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="ClientesServiceSOAPService" targetNamespace="http://services.parqueadero.g1.appdis.edu.ups.ec/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.parqueadero.g1.appdis.edu.ups.ec/" elementFormDefault="unqualified" targetNamespace="http://services.parqueadero.g1.appdis.edu.ups.ec/" version="1.0">
+
+  <xs:element name="doGuardar" type="tns:doGuardar"/>
+
+  <xs:element name="doGuardarResponse" type="tns:doGuardarResponse"/>
+
+  <xs:element name="getVehiculo" type="tns:getVehiculo"/>
+
+  <xs:element name="getVehiculoResponse" type="tns:getVehiculoResponse"/>
+
+  <xs:element name="guardarVehiculo" type="tns:guardarVehiculo"/>
+
+  <xs:element name="guardarVehiculoResponse" type="tns:guardarVehiculoResponse"/>
+
+  <xs:element name="sumar" type="tns:sumar"/>
+
+  <xs:element name="sumarResponse" type="tns:sumarResponse"/>
+
+  <xs:complexType name="doGuardar">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:vehiculo"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="vehiculo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="color" type="xs:string"/>
+      <xs:element minOccurs="0" name="marca" type="xs:string"/>
+      <xs:element minOccurs="0" name="placa" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="doGuardarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getVehiculo">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getVehiculoResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:vehiculo"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="guardarVehiculo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:vehiculo"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="guardarVehiculoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="sumar">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+      <xs:element name="arg1" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="sumarResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="doGuardar">
+    <wsdl:part element="tns:doGuardar" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getVehiculo">
+    <wsdl:part element="tns:getVehiculo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getVehiculoResponse">
+    <wsdl:part element="tns:getVehiculoResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="guardarVehiculoResponse">
+    <wsdl:part element="tns:guardarVehiculoResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sumar">
+    <wsdl:part element="tns:sumar" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sumarResponse">
+    <wsdl:part element="tns:sumarResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="doGuardarResponse">
+    <wsdl:part element="tns:doGuardarResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="guardarVehiculo">
+    <wsdl:part element="tns:guardarVehiculo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ClientesServiceSOAP">
+    <wsdl:operation name="doGuardar">
+      <wsdl:input message="tns:doGuardar" name="doGuardar">
+    </wsdl:input>
+      <wsdl:output message="tns:doGuardarResponse" name="doGuardarResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVehiculo">
+      <wsdl:input message="tns:getVehiculo" name="getVehiculo">
+    </wsdl:input>
+      <wsdl:output message="tns:getVehiculoResponse" name="getVehiculoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guardarVehiculo">
+      <wsdl:input message="tns:guardarVehiculo" name="guardarVehiculo">
+    </wsdl:input>
+      <wsdl:output message="tns:guardarVehiculoResponse" name="guardarVehiculoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sumar">
+      <wsdl:input message="tns:sumar" name="sumar">
+    </wsdl:input>
+      <wsdl:output message="tns:sumarResponse" name="sumarResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ClientesServiceSOAPServiceSoapBinding" type="tns:ClientesServiceSOAP">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="doGuardar">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="doGuardar">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="doGuardarResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVehiculo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getVehiculo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getVehiculoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guardarVehiculo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="guardarVehiculo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="guardarVehiculoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sumar">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="sumar">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="sumarResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClientesServiceSOAPService">
+    <wsdl:port binding="tns:ClientesServiceSOAPServiceSoapBinding" name="ClientesServiceSOAPPort">
+      <soap:address location="http://localhost:8083/parqueadero/ClientesServiceSOAP"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
